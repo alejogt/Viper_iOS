@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vo7-Hc-pEk">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="P8J-sn-EO6">
+            <objects>
+                <viewController storyboardIdentifier="MainView" id="vo7-Hc-pEk" customClass="MainViewController" customModule="viper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ghF-Kf-hRP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="EaG-gE-vns">
+                                <rect key="frame" x="42.666666666666657" y="211" width="290" height="400"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pzu-Ng-PVq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EaG-gE-vns" firstAttribute="centerX" secondItem="pzu-Ng-PVq" secondAttribute="centerX" id="Nyw-bQ-Dcu"/>
+                            <constraint firstItem="EaG-gE-vns" firstAttribute="width" secondItem="ghF-Kf-hRP" secondAttribute="width" multiplier="0.64" constant="50" id="WnY-jp-phI"/>
+                            <constraint firstItem="EaG-gE-vns" firstAttribute="centerY" secondItem="pzu-Ng-PVq" secondAttribute="centerY" id="dgG-Cf-fS1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBf-Yy-o2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1609" y="-121"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="400" height="400"/>
+    </resources>
+</document>
